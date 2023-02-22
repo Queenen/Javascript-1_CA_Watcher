@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link href="/css/styles.css" rel="stylesheet" />
+    <script defer src="/js/contact.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/html/index.html"><logo>WATCHER</logo></a>
+      <p>All your favorite series in one place</p>
+    </header>
+    <section>
+      <div>
+        <img
+          src="/images/people_ideas.PNG"
+          alt="people gathering ideas"
+          id="contact_img"
+        />
+      </div>
+      <form>
+        <div class="loader" style="display: none"></div>
+        <p class="success contact_success">Your message is sent!</p>
+        <div>
+          <label for="name">Your name</label>
+          <input type="text" id="name" placeholder="Example: John Doe" />
+          <p class="error_2 name_error">Please enter your name.</p>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Example: John.Doe@hotmail.com"
+          />
+          <p class="error_2 email_error">Please enter a valid email adress.</p>
+        </div>
+        <div>
+          <label for="adress">Adress</label>
+          <input
+            type="text"
+            id="adress"
+            placeholder="Example: Nowherestreet 12, 8255 Norway"
+          />
+          <p class="error_2 adress_error">
+            Your adress must be at least 25 characters.
+          </p>
+        </div>
+        <div>
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            placeholder="Example: Please add my favorite series: 'title'?"
+          />
+          <p class="error_2 subject_error">
+            Your subject must be at least 10 characters.
+          </p>
+        </div>
+        <button>Send Message</button>
+      </form>
+    </section>
+    <footer>
+      <nav>
+        <a href="/html/contact.html">Contact us</a>
+        <p>© Watcher. All rights reserved</p>
+      </nav>
+    </footer>
+  </body>
+</html>
